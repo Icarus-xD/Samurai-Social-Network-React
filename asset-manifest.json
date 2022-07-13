@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Samurai-Social-Network-React/static/css/main.9692ecd3.css",
-    "main.js": "/Samurai-Social-Network-React/static/js/main.86122e79.js",
+    "main.js": "/Samurai-Social-Network-React/static/js/main.240a48b5.js",
     "static/css/259.6d331552.chunk.css": "/Samurai-Social-Network-React/static/css/259.6d331552.chunk.css",
     "static/js/259.3566b59a.chunk.js": "/Samurai-Social-Network-React/static/js/259.3566b59a.chunk.js",
     "static/css/49.8b1585fc.chunk.css": "/Samurai-Social-Network-React/static/css/49.8b1585fc.chunk.css",
@@ -14,7 +14,7 @@
     "static/media/puff.svg": "/Samurai-Social-Network-React/static/media/puff.be69e7a9d85109e7dfa9650e12eca763.svg",
     "index.html": "/Samurai-Social-Network-React/index.html",
     "main.9692ecd3.css.map": "/Samurai-Social-Network-React/static/css/main.9692ecd3.css.map",
-    "main.86122e79.js.map": "/Samurai-Social-Network-React/static/js/main.86122e79.js.map",
+    "main.240a48b5.js.map": "/Samurai-Social-Network-React/static/js/main.240a48b5.js.map",
     "259.6d331552.chunk.css.map": "/Samurai-Social-Network-React/static/css/259.6d331552.chunk.css.map",
     "259.3566b59a.chunk.js.map": "/Samurai-Social-Network-React/static/js/259.3566b59a.chunk.js.map",
     "49.8b1585fc.chunk.css.map": "/Samurai-Social-Network-React/static/css/49.8b1585fc.chunk.css.map",
@@ -27,6 +27,6 @@
   },
   "entrypoints": [
     "static/css/main.9692ecd3.css",
-    "static/js/main.86122e79.js"
+    "static/js/main.240a48b5.js"
   ]
 }
