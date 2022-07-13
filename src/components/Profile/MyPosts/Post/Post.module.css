@@ -1,0 +1,19 @@
+.post {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  padding: 5px;
+  background-color: olive;
+}
+
+.user-picture {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.message {
+  margin-right: 15px;
+  /* margin-right: auto; */
+}

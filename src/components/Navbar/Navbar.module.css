@@ -1,0 +1,17 @@
+.nav-list {
+  list-style: none;
+}
+
+.nav-item {
+  padding: 5px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.active {
+  color: sienna;
+  text-decoration: none;
+}

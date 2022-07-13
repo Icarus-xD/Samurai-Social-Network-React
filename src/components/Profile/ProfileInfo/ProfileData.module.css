@@ -1,0 +1,8 @@
+.description {
+  gap: 5px;
+  padding: 5px;
+}
+
+.profilePicture {
+  max-width: 200px;
+}

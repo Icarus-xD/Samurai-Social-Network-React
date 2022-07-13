@@ -1,0 +1,12 @@
+.interlocutor {
+  padding: 5px;
+}
+
+.interlocutor a {
+  color: white;
+  text-decoration: none;
+}
+
+.interlocutor.active {
+  color: sienna;
+}

@@ -1,0 +1,16 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+
+.interlocutors {
+  list-style: none;
+}
+
+.messages {
+  list-style: none;
+}
+
+.dialog {
+  
+}
