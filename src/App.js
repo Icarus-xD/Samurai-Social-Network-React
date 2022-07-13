@@ -1,6 +1,6 @@
-import { lazy, Suspense, useEffect } from 'react';
+import { lazy, StrictMode, Suspense, useEffect } from 'react';
 import { connect, Provider } from 'react-redux';
-import { Route, Routes, BrowserRouter, Navigate } from 'react-router-dom';
+import { Route, Routes, Navigate, BrowserRouter } from 'react-router-dom';
 import { compose } from 'redux';
 import withRouter from './hoc/withRouter';
 import store from './store/store';
@@ -14,7 +14,6 @@ const ProfileContainer = lazy(() => import('./components/Profile/ProfileContaine
 const DialogsContainer = lazy(() => import('./components/Dialogs/DialogsContainer'));
 const UsersContainer = lazy(() => import('./components/Users/UsersContainer'));
 const Login = lazy(() => import('./components/Login/Login'));
-
 
 const App = props => {
 
@@ -61,11 +60,13 @@ const AppContainer = compose(
 
 const MainApp = () => {
   return (
-    <BrowserRouter>
-      <Provider store={store}>
-        <AppContainer />
-      </Provider>
-    </BrowserRouter>
+    <StrictMode>
+      <BrowserRouter basename={process.env.PUBLIC_URL}> 
+        <Provider store={store}>
+          <AppContainer />
+        </Provider>
+      </BrowserRouter>
+    </StrictMode>
   );
 };
 
